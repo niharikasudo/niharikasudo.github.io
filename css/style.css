@@ -436,6 +436,38 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top:120px;
 }
   
+  
+  #hero .slider-text > h2 {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color:#46494a;
+  font-weight:600;
+}
+
+
+#hero .slider-text > h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color:#000;
+  font-weight:800;
+}
+
+
+#hero .slider-text > h1 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform:none;
+  color:#3A3C3D;
+  
+}
+  
+  
   #hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 50px;
   }
