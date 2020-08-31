@@ -2663,11 +2663,11 @@ margin-bottom:30px;
 
 
 
-.obox
+  .obox
 {
-border:1px solid #f0f0f0;border-radius:10px;-webkit-box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
-  -moz-box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
-  box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
+border:0px solid #f0f0f0;border-radius:30px;-webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.35);
 }
 
   .ibox
@@ -2677,7 +2677,7 @@ padding:50px 0 0px 0px;
 
 .img-cs
 {
-margin-left:-15px;border-radius:10px;
+margin-left:-15px;
 }
 
 @media screen and (max-width: 480px) {
@@ -2686,11 +2686,19 @@ margin-left:-15px;border-radius:10px;
     padding:4em 0;
   }
   
+  #about-us p
+ {
+  font-size:18px;
+  color:#3A3C3D;
+line-height:1.5;
+margin-bottom:30px;
+}
+  
   .obox
 {
-border:0px solid #f0f0f0;border-radius:10px;-webkit-box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
-  -moz-box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
-  box-shadow: 0px 14px 33px -9px rgba(232, 251, 249, 0.75);
+border:0px solid #f0f0f0;border-radius:10px;-webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
 }
   
   .ibox
@@ -2703,6 +2711,7 @@ height:400px;
 {
 margin-left:0px;border-radius:0px;
 }
+
 
 }
 
